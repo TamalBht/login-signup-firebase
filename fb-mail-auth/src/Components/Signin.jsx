@@ -16,7 +16,7 @@ const SignIn = ()=>{
     }
     return(
         <div className="sign-in-container">
-        <form>
+        <form on onSubmit={SignIn}>
             <h1>Login</h1>
             <input type="email" placeholder="Enter your mail" value={email} onChange={(e)=>setEmail(e.target.value)}></input>
             <input type="password" placeholder="Enter your password" value={password} onChange={(e)=>setPassword(e.target.value)}></input>
