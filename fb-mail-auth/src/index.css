@@ -5,7 +5,13 @@ body {
   min-width: 100vw;
   min-height: 100vh;
 }
-
+.wrapper{
+  display:flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

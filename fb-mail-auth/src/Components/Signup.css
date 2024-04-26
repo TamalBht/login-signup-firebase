@@ -1,4 +1,4 @@
-.sign-in-container{
+.sign-up-container{
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -18,7 +18,7 @@
 
     
 }
-.sign-in-container input{
+.sign-up-container input{
     background: transparent;
     padding: 10px;
     border-radius: 10px;
@@ -33,7 +33,7 @@
   ::-ms-input-placeholder { /* Edge 12 -18 */
     color: white;
   }
-.sign-in-container button{
+.sign-up-container button{
     padding: 5px;
     background: transparent;
     color: white;
